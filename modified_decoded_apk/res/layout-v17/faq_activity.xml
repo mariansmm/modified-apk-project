@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/superContainer" android:background="@color/windowBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" />
+    <ExpandableListView android:id="@id/expandableListView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bigGap" android:layout_marginTop="@dimen/hugeGap" android:layout_marginRight="@dimen/bigGap" android:layout_marginBottom="@dimen/hyperMassiveGap" android:layout_marginStart="@dimen/bigGap" android:layout_marginEnd="@dimen/bigGap" />
+</LinearLayout>

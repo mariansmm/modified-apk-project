@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfAlarmsToDelete">
+        <item quantity="zero">تم تحديد %d منبهات</item>
+        <item quantity="one">تم تحديد %d منبه</item>
+        <item quantity="two">تم تحديد %d منبهات</item>
+        <item quantity="few">تم تحديد %d منبهات</item>
+        <item quantity="many">تم تحديد %d منبهات</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/footerContainer" android:paddingBottom="@dimen/massiveGap" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/marginBeforeNativeAd" android:layout_width="fill_parent" android:layout_height="60.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/adsHolder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hugeGap" android:layout_marginBottom="@dimen/mediumGap" android:minHeight="350.0dip" />
+    <TextView android:textSize="@dimen/textSizeSmall" android:textColor="@color/textColorSecondary" android:gravity="center_horizontal" android:id="@id/promoBannerText" android:paddingTop="@dimen/hyperMassiveGap" android:paddingBottom="@dimen/hyperMassiveGap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mediumGap" android:layout_marginBottom="30.0dip" android:text="@string/tryPro" />
+    <include layout="@layout/buy_pro_button" />
+</LinearLayout>

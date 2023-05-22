@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="@integer/shortAnimationEnterDuration" android:exitFadeDuration="@integer/shortAnimationExitDuration"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:dither="true" android:visible="true" android:shape="rectangle" android:useLevel="false">
+            <solid android:color="@color/backgroundSwitch95" />
+            <corners android:radius="@dimen/bigGap" />
+        </shape>
+    </item>
+    <item>
+        <shape android:dither="true" android:visible="true" android:shape="rectangle" android:useLevel="false">
+            <solid android:color="@color/backgroundSwitchOldLayout" />
+            <corners android:radius="@dimen/bigGap" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/windowBackgroundNewLayout" android:padding="@dimen/massiveGap" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hyperMassiveGap" android:src="@drawable/ic_going_pro" android:importantForAccessibility="no" />
+    <TextView android:textSize="@dimen/textSizeVeryBig" android:textStyle="normal" android:textColor="@color/textColorDialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/massiveGap" android:text="@string/noAdsFan" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="@dimen/textSizeBig" android:textStyle="normal" android:textColor="@color/textColorDialog" android:gravity="center" android:id="@id/text_view_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/massiveGap" android:layout_marginTop="@dimen/bigGap" android:layout_marginRight="@dimen/massiveGap" android:text="@string/letsGoProWithoutPrice" android:fontFamily="sans-serif" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/massiveGap">
+        <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/textColorButtonDialog" android:id="@id/text_view_close" android:padding="@dimen/massiveGap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_thanks" android:textAllCaps="true" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/textColorButtonDialog" android:id="@id/button_lets_go_pro" android:padding="@dimen/massiveGap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/goPro" android:textAllCaps="true" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_row" android:padding="@dimen/smallGap" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_alarm" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/minHeightAlarmRowWidget">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/smallGap" android:layout_marginBottom="@dimen/smallGap">
+                <TextView android:textSize="@dimen/textSizeVerySmall" android:textColor="@color/textInsidePrimaryColor" android:gravity="start" android:id="@id/alarm_days" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigGap" android:alpha="0.5" android:layout_marginStart="@dimen/bigGap" />
+                <TextView android:textSize="@dimen/textSizeVerySmall" android:textColor="@color/textInsidePrimaryColor" android:ellipsize="end" android:gravity="start" android:id="@id/alarm_message_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigGap" android:maxLines="1" android:layout_marginStart="@dimen/bigGap" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/text_size_widget_hour" android:textStyle="normal" android:textColor="@color/textInsidePrimaryColor" android:id="@id/text_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigGap" android:text="07:00" android:includeFontPadding="false" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/bigGap" />
+                    <TextView android:textSize="@dimen/text_size_widget_am_pm" android:textColor="@color/textInsidePrimaryColor" android:id="@id/text_am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigGap" android:text="@string/AM" android:layout_marginStart="@dimen/bigGap" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/alarmIndicator" android:layout_width="@dimen/widget_watermark_size" android:layout_height="@dimen/widget_watermark_size" android:layout_marginTop="-10.0dip" android:layout_marginRight="-10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:alpha="0.3" android:rotation="180.0" android:importantForAccessibility="no" android:layout_marginEnd="-10.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

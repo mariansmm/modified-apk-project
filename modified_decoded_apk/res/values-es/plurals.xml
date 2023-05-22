@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfAlarmsToDelete">
+        <item quantity="other">%1$d Alarmas seleccionada</item>
+        <item quantity="zero">%1$d Alarmas seleccionadas</item>
+        <item quantity="one">%1$d Alarma seleccionada</item>
+    </plurals>
+</resources>

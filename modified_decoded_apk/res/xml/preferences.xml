@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/app_name"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/soundAndVibrationPreferencesTitle">
+        <Preference android:icon="@drawable/ic_icon_sound" android:title="@string/currentSound" android:key="soundTitlePreference" android:summary="" />
+        <ListPreference android:icon="@drawable/ic_icon_alarm" android:entries="@array/alarmTypes" android:title="@string/alarmType" android:key="alarmType" android:defaultValue="0" android:entryValues="@array/alarmTypesValues" app:useSimpleSummaryProvider="true" />
+        <SeekBarPreference android:icon="@drawable/ic_icon_volume" android:max="100" android:title="@string/volume" android:key="volumeSeek" android:defaultValue="-1" app:isPreferenceVisible="true" />
+        <SwitchPreferenceCompat android:icon="@drawable/ic_icon_fade" android:title="@string/fadeIn" android:key="fadeIn" android:summary="@string/fadeInExplanation" android:defaultValue="true" />
+        <SwitchPreferenceCompat android:icon="@drawable/ic_icon_phone" android:title="@string/overridePhoneVolume" android:key="overridePhoneVolume" android:summary="@string/overridePhoneVolumeExplanation" android:defaultValue="true" />
+        <SwitchPreferenceCompat android:icon="@drawable/ic_icon_touch" android:title="@string/keyVibrateText" android:key="keyVibrate" android:summary="@string/keyVibrateExplanation" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/stopAndSnoozePreferencesTitle">
+        <ListPreference android:icon="@drawable/ic_icon_steps" android:entries="@array/waysToStopType" android:title="@string/waysToStopTitle" android:key="waysToStop" android:defaultValue="@string/threeButtonsValue" android:entryValues="@array/waysToStopValues" app:isPreferenceVisible="false" app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat android:icon="@drawable/ic_icon_steps" android:title="@string/threeStepsText" android:key="threeSteps" android:summary="@string/threeStopsExplanation" android:defaultValue="true" />
+        <ListPreference android:icon="@drawable/ic_icon_duration" android:entries="@array/pauses" android:title="@string/pauseDuration" android:key="pauseMinutes" android:defaultValue="5" android:entryValues="@array/pausesValues" app:useSimpleSummaryProvider="true" />
+        <ListPreference android:icon="@drawable/ic_auto_snooze_icon" android:entries="@array/auto_snooze_minutes" android:title="@string/autoSnoozeDuration" android:key="autoSnoozeMinutes" android:defaultValue="1" android:entryValues="@array/auto_snoozesValues" app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat android:icon="@drawable/ic_icon_snooze" android:title="@string/showPauseButton" android:key="showPauseButton" android:summary="@string/showSnoozeExplanation" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/personalize">
+        <ListPreference android:icon="@drawable/ic_icon_dark_light" android:title="@string/color_theme" android:key="darkMode" android:defaultValue="dark" app:entries="@array/themeFormats" app:entryValues="@array/themeFormatsValues" app:useSimpleSummaryProvider="true" />
+        <ListPreference android:icon="@drawable/ic_icon_schedule" android:entries="@array/timeFormats" android:title="@string/timeFormat" android:key="timeFormat" android:defaultValue="0" android:entryValues="@array/timeFormatsValues" app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat android:icon="@drawable/ic_icon_notifications" android:title="@string/showNotificationsText" android:key="showNotifications" android:summary="@string/showNotificationsExplanation" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/generalPreferencesTitle">
+        <Preference android:icon="@drawable/ic_icon_not_interested" android:title="@string/removeAds" android:key="removeAds" android:summary="@string/removeAdsExplanation" />
+        <Preference android:icon="@drawable/ic_icon_add_circle" android:title="@string/otherApps" android:key="otherApps" android:summary="@string/moreAppsExplanation" />
+        <Preference android:icon="@drawable/ic_icon_people" android:title="@string/recommendToAFriend" android:key="recommendApp" android:summary="@string/recommendToAFriendExplanation" />
+        <Preference android:icon="@drawable/ic_icon_thumbs_up_down" android:title="@string/rateApp" android:key="rateApp" android:summary="@string/rateAppExplanation" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/helpCenter" android:key="helpCenter">
+        <Preference android:icon="@drawable/ic_faq" android:title="@string/faq" android:key="faq" android:summary="@string/faqSummary" />
+        <Preference android:icon="@drawable/ic_icon_report_problem" android:title="@string/reportProblem" android:key="reportProblem" android:summary="@string/reportProblemExplanation" />
+        <Preference android:icon="@drawable/ic_icon_policy" android:title="@string/data_protection_title" android:key="showGDPR" android:summary="@string/data_protection_summary" app:isPreferenceVisible="true" />
+    </PreferenceCategory>
+    <Preference android:enabled="false" android:title="Ad mediation test suite" android:key="ad_mediation_test_suite" android:summary="Show ad mediation implementation debug info" />
+    <Preference android:layout="@layout/preference_ad_layout" android:title="" android:key="ad_preference" android:summary="" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfAlarmsToDelete">
+        <item quantity="one">%1$d выбранный будильник</item>
+        <item quantity="few">%1$d выбранные будильники</item>
+        <item quantity="many">%1$d выбранные будильники</item>
+    </plurals>
+</resources>

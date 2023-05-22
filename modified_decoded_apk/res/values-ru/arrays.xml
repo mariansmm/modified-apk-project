@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarmTypes">
+        <item>Вибрация и мелодия</item>
+        <item>Только мелодия</item>
+        <item>Только вибрация</item>
+    </string-array>
+    <string-array name="auto_snooze_minutes">
+        <item>Нет автоматического повтора</item>
+        <item>1 минута</item>
+        <item>3 минуты</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+        <item>45 минут</item>
+        <item>60 минут</item>
+        <item>90 минут</item>
+        <item>120 минут</item>
+    </string-array>
+    <string-array name="pauses">
+        <item>1 минута</item>
+        <item>3 минуты</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+        <item>45 минут</item>
+        <item>60 минут</item>
+        <item>90 минут</item>
+        <item>120 минут</item>
+    </string-array>
+    <string-array name="timeFormats">
+        <item>12-часовой</item>
+        <item>24-часовой</item>
+    </string-array>
+</resources>

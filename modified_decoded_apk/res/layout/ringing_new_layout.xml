@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ar.com.basejuegos.simplealarm.views.PausableScrollView android:orientation="vertical" android:id="@id/superContainer" android:background="?primaryColorRinging" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/ringingContentContainer" android:paddingBottom="@dimen/bigGap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/massiveGap">
+            <ViewStub android:id="@id/layout_stub_top_ringing_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/smallGap" android:layout_marginBottom="@dimen/smallGap" />
+            <ViewStub android:id="@id/layout_stub_main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/layout_stub_stop_pause_buttons_pro_version" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_very_big" />
+            <LinearLayout android:orientation="vertical" android:id="@id/adsHolder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hugeGap" android:layout_marginBottom="@dimen/mediumGap" />
+            <include layout="@layout/buy_pro_button" />
+        </LinearLayout>
+    </LinearLayout>
+</ar.com.basejuegos.simplealarm.views.PausableScrollView>

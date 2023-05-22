@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/stopMethodContainer" android:background="?primaryColorRinging" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ar.com.basejuegos.simplealarm.views.animated.AnimatedButton android:enabled="false" android:textSize="@dimen/textSizeMedium" android:textColor="?textColorStopButton" android:id="@id/bigStopButton" android:visibility="invisible" android:layout_width="@dimen/widthLargeButtons" android:layout_height="@dimen/heightButtonPaidVersion" android:text="@string/stopButton" style="?backgroundButtonStop" />
+    <ar.com.basejuegos.simplealarm.views.animated.AnimatedButton android:enabled="false" android:textSize="@dimen/textSizeMedium" android:textColor="?textColorStopButton" android:id="@id/pauseButton" android:visibility="gone" android:layout_width="@dimen/widthLargeButtons" android:layout_height="@dimen/heightButtonPaidVersion" android:layout_marginLeft="@dimen/hyperMassiveGap" android:text="@string/pause" android:layout_marginStart="@dimen/hyperMassiveGap" style="?backgroundButtonStop" />
+</LinearLayout>

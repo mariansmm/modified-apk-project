@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarmTypes">
+        <item>ध्वनि और कंपन</item>
+        <item>ध्वनि केवल</item>
+        <item>कंपन केवल</item>
+    </string-array>
+    <string-array name="auto_snooze_minutes">
+        <item>कोई स्वत: की याद दिलाएंं</item>
+        <item>1 मिनट</item>
+        <item>3 मिनिट</item>
+        <item>5 मिनिट</item>
+        <item>10 मिनिट</item>
+        <item>15 मिनिट</item>
+        <item>20 मिनिट</item>
+        <item>30 मिनिट</item>
+        <item>45 मिनिट</item>
+        <item>60 मिनिट</item>
+        <item>90 मिनिट</item>
+        <item>120 मिनिट</item>
+    </string-array>
+    <string-array name="pauses">
+        <item>1 मिनट</item>
+        <item>3 मिनिट</item>
+        <item>5 मिनिट</item>
+        <item>10 मिनिट</item>
+        <item>15 मिनिट</item>
+        <item>20 मिनिट</item>
+        <item>30 मिनिट</item>
+        <item>45 मिनिट</item>
+        <item>60 मिनिट</item>
+        <item>90 मिनिट</item>
+        <item>120 मिनिट</item>
+    </string-array>
+    <string-array name="timeFormats">
+        <item>पूर्वाह्न / अपराह्न</item>
+        <item>२४ घंटे</item>
+    </string-array>
+</resources>

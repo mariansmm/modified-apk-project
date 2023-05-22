@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarmTypes">
+        <item>소리와 진동</item>
+        <item>소리만</item>
+        <item>진동만</item>
+    </string-array>
+    <string-array name="auto_snooze_minutes">
+        <item>없음 자동 스누즈 없습니다</item>
+        <item>1 분</item>
+        <item>3 분</item>
+        <item>5 분</item>
+        <item>10 분</item>
+        <item>15 분</item>
+        <item>20 분</item>
+        <item>30 분</item>
+        <item>45 분</item>
+        <item>60 분</item>
+        <item>90 분</item>
+        <item>120 분</item>
+    </string-array>
+    <string-array name="pauses">
+        <item>1 분</item>
+        <item>3 분</item>
+        <item>5 분</item>
+        <item>10 분</item>
+        <item>15 분</item>
+        <item>20 분</item>
+        <item>30 분</item>
+        <item>45 분</item>
+        <item>60 분</item>
+        <item>90 분</item>
+        <item>120 분</item>
+    </string-array>
+    <string-array name="timeFormats">
+        <item>오전/오후</item>
+        <item>24시간</item>
+    </string-array>
+</resources>

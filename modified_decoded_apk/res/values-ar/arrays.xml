@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarmTypes">
+        <item>الصوت والاهتزاز</item>
+        <item>صوت فقط</item>
+        <item>الاهتزاز فقط</item>
+    </string-array>
+    <string-array name="auto_snooze_minutes">
+        <item>لا قيلولة بعد الظهر التلقائي</item>
+        <item>1 واحدة</item>
+        <item>3 دقائق</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>15 دقائق</item>
+        <item>20 دقيقة</item>
+        <item>30 دقيقة</item>
+        <item>45 دقيقة</item>
+        <item>60 دقيقة</item>
+        <item>90 دقيقة</item>
+        <item>120 دقيقة</item>
+    </string-array>
+    <string-array name="pauses">
+        <item>1 واحدة</item>
+        <item>3 دقائق</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>15 دقائق</item>
+        <item>20 دقيقة</item>
+        <item>30 دقيقة</item>
+        <item>45 دقيقة</item>
+        <item>60 دقيقة</item>
+        <item>90 دقيقة</item>
+        <item>120 دقيقة</item>
+    </string-array>
+    <string-array name="timeFormats">
+        <item>صباحا و مساء</item>
+        <item>24 ساعة</item>
+    </string-array>
+</resources>

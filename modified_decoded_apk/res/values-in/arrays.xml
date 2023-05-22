@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarmTypes">
+        <item>Suara dan Getar</item>
+        <item>Hanya Suara</item>
+        <item>Hanya Getar</item>
+    </string-array>
+    <string-array name="auto_snooze_minutes">
+        <item>Tidak ada tunda otomatis</item>
+        <item>1 Menit</item>
+        <item>3 Menit</item>
+        <item>5 Menit</item>
+        <item>10 Menit</item>
+        <item>15 Menit</item>
+        <item>20 Menit</item>
+        <item>30 Menit</item>
+        <item>45 Menit</item>
+        <item>60 Menit</item>
+        <item>90 Menit</item>
+        <item>120 Menit</item>
+    </string-array>
+    <string-array name="pauses">
+        <item>1 Menit</item>
+        <item>3 Menit</item>
+        <item>5 Menit</item>
+        <item>10 Menit</item>
+        <item>15 Menit</item>
+        <item>20 Menit</item>
+        <item>30 Menit</item>
+        <item>45 Menit</item>
+        <item>60 Menit</item>
+        <item>90 Menit</item>
+        <item>120 Menit</item>
+    </string-array>
+    <string-array name="timeFormats">
+        <item>AM/PM</item>
+        <item>24Jam</item>
+    </string-array>
+</resources>

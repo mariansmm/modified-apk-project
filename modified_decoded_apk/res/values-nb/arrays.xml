@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarmTypes">
+        <item>Lyd og vibrasjon</item>
+        <item>Bare lyd</item>
+        <item>Bare vibrasjon</item>
+    </string-array>
+    <string-array name="auto_snooze_minutes">
+        <item>Ingen automatisk slumring</item>
+        <item>1 Minutt</item>
+        <item>3 Minutter</item>
+        <item>5 Minutter</item>
+        <item>10 Minutter</item>
+        <item>15 Minutter</item>
+        <item>20 Minutter</item>
+        <item>30 Minutter</item>
+        <item>45 Minutter</item>
+        <item>60 Minutter</item>
+        <item>90 Minutter</item>
+        <item>120 Minutter</item>
+    </string-array>
+    <string-array name="pauses">
+        <item>1 Minutt</item>
+        <item>3 Minutter</item>
+        <item>5 Minutter</item>
+        <item>10 Minutter</item>
+        <item>15 Minutter</item>
+        <item>20 Minutter</item>
+        <item>30 Minutter</item>
+        <item>45 Minutter</item>
+        <item>60 Minutter</item>
+        <item>90 Minutter</item>
+        <item>120 Minutter</item>
+    </string-array>
+    <string-array name="timeFormats">
+        <item>Morgen/Kveld</item>
+        <item>24 timer</item>
+    </string-array>
+</resources>

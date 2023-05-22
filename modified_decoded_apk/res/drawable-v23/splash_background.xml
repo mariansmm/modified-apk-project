@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/splashBackground" />
+    <item android:gravity="center" android:height="100.0dip" android:width="100.0dip">
+        <bitmap android:gravity="fill" android:src="@drawable/simplealarm" />
+    </item>
+</layer-list>

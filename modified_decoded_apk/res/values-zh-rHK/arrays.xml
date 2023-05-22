@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarmTypes">
+        <item>聲音和振動</item>
+        <item>只有聲音</item>
+        <item>僅振動</item>
+    </string-array>
+    <string-array name="auto_snooze_minutes">
+        <item>无自动贪睡</item>
+        <item>1 分钟</item>
+        <item>3 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>15 分钟</item>
+        <item>20 分钟</item>
+        <item>30 分钟</item>
+        <item>45 分钟</item>
+        <item>60 分钟</item>
+        <item>90 分钟</item>
+        <item>120 分钟</item>
+    </string-array>
+    <string-array name="pauses">
+        <item>1 分鐘</item>
+        <item>3 分鐘</item>
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+        <item>30 分鐘</item>
+        <item>45 分鐘</item>
+        <item>60 分鐘</item>
+        <item>90 分鐘</item>
+        <item>120 分鐘</item>
+    </string-array>
+    <string-array name="timeFormats">
+        <item>上午 / 下午</item>
+        <item>24 小時</item>
+    </string-array>
+</resources>

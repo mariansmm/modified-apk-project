@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/superContainer" android:background="@color/windowBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:contentInsetLeft="0.0dip" app:contentInsetStart="0.0dip" app:contentInsetStartWithNavigation="0.0dip" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/newAlarmLayout" android:paddingTop="@dimen/smallGap" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hugeGap" android:layout_marginRight="@dimen/hugeGap">
+                <View android:id="@id/focus_view" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="0.0dip">
+                    <requestFocus />
+                </View>
+                <EditText android:textSize="@dimen/textSizeMedium" android:textColor="@color/textColorPrimary" android:textColorHint="@color/gray_off_background_by_70" android:id="@id/editTextMessageAlarm" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/hugeGap" android:hint="@string/messageHint" android:maxLines="1" android:maxLength="250" android:layout_weight="1.0" android:inputType="textLongMessage" android:imeOptions="actionDone" app:backgroundTint="@color/editTextBottomLineOldLayout" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+                <androidx.gridlayout.widget.GridLayout android:id="@id/buttonsContainer" android:paddingTop="@dimen/mediumGap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hugeGap" app:columnCount="3" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dayButtonsContainer" android:paddingTop="@dimen/massiveGap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/massiveGap" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/alarmToneArea" android:background="@drawable/card_ripple_background_dark" android:padding="@dimen/massiveGap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/smallGap" android:layout_marginBottom="@dimen/bigGap" android:onClick="selectRingtone">
+                    <TextView android:textSize="@dimen/textSizeSmall" android:textColor="@color/textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/alarmTone" android:layout_weight="1.0" />
+                    <TextView android:textSize="@dimen/textSizeSmall" android:textColor="@color/colorPrimary" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/alarmToneCurrentText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/defaultText" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_drop_down_white_24dp" android:alpha="0.7" android:importantForAccessibility="no" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/actionButtonsLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/bigGap">
+                    <ar.com.basejuegos.simplealarm.views.animated.AnimatedButton android:textSize="@dimen/textSizeBig" android:textColor="@color/colorTextCancelButton" android:id="@id/cancelAlarmButton" android:background="@drawable/light_gray_button_cancel" android:layout_width="130.0dip" android:layout_height="@dimen/largeActionButtonsHeight" android:layout_marginTop="5.0dip" android:layout_marginRight="3.0dip" android:text="@string/cancel" android:layout_weight="0.4" />
+                    <ar.com.basejuegos.simplealarm.views.animated.AnimatedButton android:textSize="@dimen/textSizeBig" android:textColor="#ffffffff" android:id="@id/saveAlarmButton" android:background="@drawable/rounded_blue_button" android:layout_width="130.0dip" android:layout_height="@dimen/largeActionButtonsHeight" android:layout_marginLeft="3.0dip" android:layout_marginTop="5.0dip" android:text="@string/save" android:layout_weight="0.4" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/adsHolder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hugeGap" android:layout_marginBottom="@dimen/mediumGap" />
+            <include layout="@layout/buy_pro_button" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

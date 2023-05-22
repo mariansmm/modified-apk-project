@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="@integer/shortAnimationEnterDuration" android:exitFadeDuration="@integer/shortAnimationExitDuration"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:left="@dimen/smallGap" android:top="@dimen/smallGap" android:right="@dimen/smallGap" android:bottom="@dimen/smallGap">
+                <shape android:shape="rectangle">
+                    <size android:height="@dimen/amPmSwitchSize" android:width="@dimen/amPmSwitchSize" />
+                    <solid android:color="@color/light_blue_highlighted" />
+                    <corners android:radius="@dimen/mediumGap" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:left="@dimen/smallGap" android:top="@dimen/smallGap" android:right="@dimen/smallGap" android:bottom="@dimen/smallGap">
+                <shape android:shape="rectangle">
+                    <size android:height="@dimen/amPmSwitchSize" android:width="@dimen/amPmSwitchSize" />
+                    <solid android:color="@color/light_blue" />
+                    <corners android:radius="@dimen/mediumGap" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

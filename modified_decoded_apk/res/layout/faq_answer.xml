@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textViewAnswer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hyperMassiveGap" android:layout_marginRight="@dimen/hyperMassiveGap" android:layout_marginBottom="@dimen/massiveGap" android:lineSpacingMultiplier="1.2" />
+    <View android:id="@id/answerDivider" android:background="@color/gray_off_background_by_40" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/massiveGap" android:layout_marginRight="@dimen/massiveGap" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/titleSize" android:textColor="#ffffffff" android:id="@id/newAlarmTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/newAlarm" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/textSizeVeryBig" android:typeface="monospace" android:textColor="#ffffffff" android:id="@id/displayAlarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="10.0dip" android:text="__:__" />
+    <androidx.appcompat.widget.SwitchCompat android:id="@id/amPmSwitch" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:textOn="@string/PM" android:textOff="@string/AM" android:thumb="@drawable/am_pm_switch_thumb" android:onClick="switchAmPm" android:switchMinWidth="10.0dip" app:showText="true" app:track="@drawable/am_pm_switch_track" />
+</LinearLayout>

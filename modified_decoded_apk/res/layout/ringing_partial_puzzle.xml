@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/stopMethodContainer" android:background="?secondaryColorRinging" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.andrognito.patternlockview.PatternLockView android:id="@id/pattern_lock_view" android:visibility="visible" android:layout_width="@dimen/stop_methods_area_width" android:layout_height="@dimen/stop_methods_area_height" android:layout_marginTop="@dimen/massiveGap" android:layout_marginBottom="@dimen/massiveGap" app:pathWidth="@dimen/bigGap" />
+</LinearLayout>

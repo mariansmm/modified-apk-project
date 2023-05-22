@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarmTypes">
+        <item>Sonido y Vibración</item>
+        <item>Sólo Sonido</item>
+        <item>Sólo Vibración</item>
+    </string-array>
+    <string-array name="auto_snooze_minutes">
+        <item>No pausar automáticamente</item>
+        <item>1 Minuto</item>
+        <item>3 Minutos</item>
+        <item>5 Minutos</item>
+        <item>10 Minutos</item>
+        <item>15 Minutos</item>
+        <item>20 Minutos</item>
+        <item>30 Minutos</item>
+        <item>45 Minutos</item>
+        <item>60 Minutos</item>
+        <item>90 Minutos</item>
+        <item>120 Minutos</item>
+    </string-array>
+    <string-array name="pauses">
+        <item>1 Minuto</item>
+        <item>3 Minutos</item>
+        <item>5 Minutos</item>
+        <item>10 Minutos</item>
+        <item>15 Minutos</item>
+        <item>20 Minutos</item>
+        <item>30 Minutos</item>
+        <item>45 Minutos</item>
+        <item>60 Minutos</item>
+        <item>90 Minutos</item>
+        <item>120 Minutos</item>
+    </string-array>
+    <string-array name="timeFormats">
+        <item>AM/PM</item>
+        <item>24 horas</item>
+    </string-array>
+</resources>

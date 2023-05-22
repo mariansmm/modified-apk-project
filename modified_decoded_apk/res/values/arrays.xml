@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarmTypes">
+        <item>Sound and Vibration</item>
+        <item>Sound Only</item>
+        <item>Vibration Only</item>
+    </string-array>
+    <string-array name="alarmTypesValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="auto_snooze_minutes">
+        <item>No automatic snooze</item>
+        <item>1 Minute</item>
+        <item>3 Minutes</item>
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>20 Minutes</item>
+        <item>30 Minutes</item>
+        <item>45 Minutes</item>
+        <item>60 Minutes</item>
+        <item>90 Minutes</item>
+        <item>120 Minutes</item>
+    </string-array>
+    <string-array name="auto_snoozesValues">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="faqAnswers">
+        <item>@string/answer1</item>
+        <item>@string/answer2</item>
+        <item>@string/answer3</item>
+        <item>@string/answer4</item>
+        <item>@string/answer5</item>
+        <item>@string/answer6</item>
+        <item>@string/answer7</item>
+        <item>@string/answer8</item>
+        <item>@string/answer9</item>
+        <item>@string/answer10</item>
+        <item>@string/answer11</item>
+        <item>@string/answer12</item>
+    </string-array>
+    <string-array name="faqQuestions">
+        <item>@string/question1</item>
+        <item>@string/question2</item>
+        <item>@string/question3</item>
+        <item>@string/question4</item>
+        <item>@string/question5</item>
+        <item>@string/question6</item>
+        <item>@string/question7</item>
+        <item>@string/question8</item>
+        <item>@string/question9</item>
+        <item>@string/question10</item>
+        <item>@string/question11</item>
+        <item>@string/question12</item>
+    </string-array>
+    <string-array name="pauses">
+        <item>1 Minute</item>
+        <item>3 Minutes</item>
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>20 Minutes</item>
+        <item>30 Minutes</item>
+        <item>45 Minutes</item>
+        <item>60 Minutes</item>
+        <item>90 Minutes</item>
+        <item>120 Minutes</item>
+    </string-array>
+    <string-array name="pausesValues">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="themeFormats">
+        <item>@string/dark</item>
+        <item>@string/light</item>
+    </string-array>
+    <string-array name="themeFormatsValues">
+        <item>dark</item>
+        <item>light</item>
+    </string-array>
+    <string-array name="timeFormats">
+        <item>AM/PM</item>
+        <item>24H</item>
+    </string-array>
+    <string-array name="timeFormatsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="waysToStopType">
+        <item>@string/threeButtons</item>
+        <item>@string/singleButton</item>
+        <item>@string/puzzlePaid</item>
+        <item>@string/mathPaid</item>
+        <item>@string/sliderPaid</item>
+        <item>@string/randomPaid</item>
+    </string-array>
+    <string-array name="waysToStopValues">
+        <item>@string/threeButtonsValue</item>
+        <item>@string/singleButtonValue</item>
+        <item>@string/puzzlePaidValue</item>
+        <item>@string/mathPaidValue</item>
+        <item>@string/sliderPaidValue</item>
+        <item>@string/randomPaidValue</item>
+    </string-array>
+</resources>

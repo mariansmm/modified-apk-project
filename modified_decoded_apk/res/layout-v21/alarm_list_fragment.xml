@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/viewWarning" android:background="@color/warning_red" android:padding="@dimen/hugeGap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/smallGap">
+        <ImageView android:id="@id/warningIcon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="@dimen/mediumGap" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/mediumGap" />
+        <TextView android:textSize="@dimen/textSizeSmall" android:textColor="@android:color/white" android:id="@id/textWarning" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/textSizeSmall" android:textColor="@color/light_blue_highlighted" android:id="@id/textDismissWarning" android:padding="@dimen/bigGap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dismiss" android:textAllCaps="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/viewTimeNextAlarm" android:background="@color/colorRowAlarmBackground" android:padding="@dimen/hugeGap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/smallGap">
+        <TextView android:textSize="@dimen/textSizeVerySmall" android:textColor="@color/textColorPrimaryNewLayout" android:gravity="center" android:id="@id/textViewTimeNextAlarm" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/alarmsRecyclerView" android:visibility="gone" android:fadingEdgeLength="@dimen/massiveGap" android:layout_width="fill_parent" android:layout_height="fill_parent" android:requiresFadingEdge="vertical" />
+</LinearLayout>

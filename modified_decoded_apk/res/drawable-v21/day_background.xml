@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <ripple android:color="@color/translucentRipple">
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/colorPrimary" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+    <item>
+        <ripple android:color="@color/translucentRipple">
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/gray_off_background_by_20" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>
