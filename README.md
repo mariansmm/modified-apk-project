@@ -1,7 +1,7 @@
 # modified-apk-project
 
 - password for the app(to get to the original application) - `marian`
-- ar.com.basejuegos.simplealarm_815_apps.evozi.com.apk - is the original apk but signed with my private key so I can install modified versions of it
+- (ar.com.basejuegos.simplealarm_815_apps.evozi.com.apk)[https://play.google.com/store/apps/details?id=ar.com.basejuegos.simplealarm] - is the original apk but signed with my private key so I can install modified versions of it
 - new.apk - the modified version signed with my private key
 - my-release-key.keystore - keystore storing my private key(password is `marian`)
 - modified_decoded_apk - a folder with the decoded apk(outputed by apktool) that was modified by me:
