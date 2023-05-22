@@ -4,6 +4,7 @@
 - [ar.com.basejuegos.simplealarm_815_apps.evozi.com.apk](https://play.google.com/store/apps/details?id=ar.com.basejuegos.simplealarm) - is the original apk but signed with my private key so I can install modified versions of it
 - new.apk - the modified version signed with my private key
 - my-release-key.keystore - keystore storing my private key(password is `marian`)
+- app - the application that contains the new activity
 - modified_decoded_apk - a folder with the decoded apk(outputed by apktool) that was modified by me:
 
 
@@ -17,16 +18,16 @@
   
     * resign the original apk with `$SDK/build-tools/apksigner sign --ks my-release-key.keystore ar.com.basejuegos.simplealarm_815_apps.evozi.com.apk`
     * install the apk on the emulator
-    * createa a new project in AndroidStudio with one activity, that has an input and a button, when the button is pressed the application navigates to a new activity
-    *  compiled and created a new apk with this small application
+    * createa a new project in AndroidStudio with one activity(the one under /app), that has an input and a button, when the button is pressed the activity navigates to itself
+    * compiled and created a new apk with this small application
     * decoded the new application apk with apktool
     * modified the smali intermediate code for MainActivity to navigate to the ar.com.basejuegos.simplealarm.SimpleAlarm activity
-    * decoded the original apk
-    * copied the modified smali file from the new apk for MainActivity to the original decoded apk
+    * decoded the original apk for the Small Alarm App
+    * copied the modified smali file from the new apk for MainActivity to the original Small Alarm decoded apk
     * copied the layout `activity_main.xml` from the new apk to the original decoded apk
     * modified the AndroidManifest.xml for the original apk to use the MainActivity as the main activity
     * build the apk with apktool
-    * decoded again the resulting apk, a new resources.asrc was generated
+    * decoded again the resulting apk, a modified resources.asrc was generated
     * modified the smali file for MainActivity to reference the new ids from the new resources.asrc, since those remained hardcoded from the sample application
     * rebuild the apk with the new MainActivity smali file
     * use zipalign to align the new apk `$SDK/build-tools zipalign 4 ar.com.basejuegos.simplealarm_815_apps.evozi.com.apk new.apk`
